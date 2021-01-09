@@ -1,17 +1,21 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import ReactDOM from "react-dom";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+  <>
+  <div className="cards">
+    <div className="card">
+      <img src="" alt="myPic" className="card__img"/>
+      <div className="card__info">
+        <span className="card__category"></span>
+        <h3 className="card_title"></h3>
+        <a href="" target="_blank"></a>
+          <button>Watch Now</button>
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+      </div>
+
+    </div>
+  </div>
+
+  </>, document.getElementById('root')
+);
