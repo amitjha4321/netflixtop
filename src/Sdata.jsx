@@ -1,5 +1,6 @@
 const Sdata= [
     {
+        id:1,
         sname:"DARK",
         imgscr:"https://wallpapercave.com/wp/wp4056410.jpg",
         title:"Netflix Original Series",
@@ -7,6 +8,7 @@ const Sdata= [
 
     },
     {
+        id:2,
         sname:"extra curricular",
         imgscr:"https://asianwiki.com/images/4/47/Human_Class-KDH.jpg",
         title:"Netflix Original Series",
@@ -14,6 +16,7 @@ const Sdata= [
 
     },
     {
+        id:3,
         sname:"Stranger Things",
         imgscr:"https://wallpapercave.com/wp/wp1917154.jpg",
         title:"Netflix Original Series",
@@ -21,6 +24,7 @@ const Sdata= [
 
     },
     {
+        id:4,
         sname:"The Vampire Diaries",
         imgscr:"https://upload.wikimedia.org/wikipedia/en/2/22/The-vampire-diaries-season-2-dvd_558x754.jpg",
         title:"Amazon Prime Series",

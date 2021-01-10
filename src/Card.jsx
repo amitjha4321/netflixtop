@@ -1,4 +1,5 @@
 import React from 'react';
+import Heading from './Heading';
 //note1 we are not importing ReactDOM here as we dont need to render here
 //note2 we are still using functional component...
 function Card(props){
@@ -11,7 +12,7 @@ function Card(props){
         <img src={props.imgsrc} alt="myPic" className="card__img"/>
         <div className="card__info">
           <span className="card__category">{props.title}</span>
-          <h3 className="card_title">{props.sname}</h3>
+          <Heading sname={props.sname}/>
           <a href={props.link} target="_blank">
             <button>Watch Now</button>
           </a>
